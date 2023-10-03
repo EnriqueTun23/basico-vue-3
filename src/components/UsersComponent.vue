@@ -5,6 +5,7 @@
     :email="user.email"
     :name="user.name"
     :username="user.username"
+    :id = "user.id"
     :key="user.id"
   ></User>
 </div>

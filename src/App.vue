@@ -1,17 +1,23 @@
 <template>
+  <Nav></Nav>
   <h1>Bienvenido a vue</h1>
-  <Counter></Counter>
-  <Users></Users>
+  <!-- <Counter></Counter> -->
+  <router-view></router-view>
 </template>
 
 <script>
-import Counter from '@/components/CounterComponent.vue';
-import Users from '@/components/UsersComponent.vue';
+// import Counter from '@/components/CounterComponent.vue';
+import Nav from '@/components/NavComponent.vue';
 
 export default {
   components: {
-    Counter,
-    Users,
+    // Counter,
+    Nav,
   },
 };
 </script>
+<style>
+  a {
+    text-decoration: none;
+  }
+</style>

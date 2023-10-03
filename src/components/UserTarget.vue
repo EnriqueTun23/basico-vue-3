@@ -3,12 +3,14 @@
         <p>Nombre del usuario: {{ name }}</p>
         <p>Username {{ username }}</p>
         <p>Email {{ email }}</p>
+        <p><b><router-link :to="{name: 'User', params: {id}}">Detalle</router-link></b></p>
+        <!-- <p><b><router-link :to="/users/ + id">Detalle</router-link></b></p> -->
     </div>
 </template>
 
 <script>
 export default {
-  props: ['name', 'username', 'email'],
+  props: ['name', 'username', 'email', 'id'],
 };
 </script>
 

@@ -1,5 +1,6 @@
 # my-app
 
+
 ## Project setup
 ```
 yarn install
@@ -19,6 +20,8 @@ yarn build
 ```
 yarn lint
 ```
+
+**Proyecto Realizado con node 16**
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
