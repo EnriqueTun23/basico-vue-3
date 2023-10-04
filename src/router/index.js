@@ -8,6 +8,7 @@ import CharacterDeleteViewVue from '@/views/CharacterDeleteView.vue';
 import AboutView from '@/views/AboutView.vue';
 import NotFound from '@/views/NotFound.vue';
 import ConfirmationView from '@/views/ConfirmationView.vue';
+import CompositionApiExampleView from '@/views/CompositionApiExampleView.vue';
 import HomePage from '../views/HomePage.vue';
 import RegisterView from '../views/RegisterView.vue';
 import ContactPage from '../views/ContactPage.vue';
@@ -107,6 +108,12 @@ const routes = [
     path: '/:pathMatch(.*)*',
     name: 'NotFound',
     component: NotFound,
+  },
+  // path para la validacion de Composition API
+  {
+    path: '/composition-api',
+    name: 'CompositionApi',
+    component: CompositionApiExampleView,
   },
 ];
 
