@@ -7,6 +7,8 @@
             <li><router-link :to="{ name: 'Rick' }">Rick Page</router-link></li>
             <li><router-link :to="{ name: 'Confirmation'}">Confirmacion</router-link></li>
             <li><router-link :to="{ name: 'CompositionApi' }">Composition api</router-link></li>
+            <li><router-link :to="{ name: 'Vuex'}">Vuex</router-link></li>
+            <li><router-link :to="{ name: 'VuexComposition' }">Vuex Composition</router-link></li>
         </ul>
     </nav>
 </template>

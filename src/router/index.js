@@ -9,6 +9,8 @@ import AboutView from '@/views/AboutView.vue';
 import NotFound from '@/views/NotFound.vue';
 import ConfirmationView from '@/views/ConfirmationView.vue';
 import CompositionApiExampleView from '@/views/CompositionApiExampleView.vue';
+import VuexView from '@/views/VuexView.vue';
+import VuexCompositionView from '@/views/VuexCompositionView.vue';
 import HomePage from '../views/HomePage.vue';
 import RegisterView from '../views/RegisterView.vue';
 import ContactPage from '../views/ContactPage.vue';
@@ -114,6 +116,18 @@ const routes = [
     path: '/composition-api',
     name: 'CompositionApi',
     component: CompositionApiExampleView,
+  },
+  // path para la validacion de vuex
+  {
+    path: '/vuex',
+    name: 'Vuex',
+    component: VuexView,
+  },
+  // path para las validaciones de vuex con composition API
+  {
+    path: '/vuex-composition',
+    name: 'VuexComposition',
+    component: VuexCompositionView,
   },
 ];
 
