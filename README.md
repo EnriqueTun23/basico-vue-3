@@ -1,4 +1,4 @@
-# my-app
+# Proyecto de ejemplo para vue 3
 
 
 ## Project setup
